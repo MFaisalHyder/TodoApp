@@ -1,2 +1,2 @@
 'use strict';
-var TodoApp = angular.module('todoApp');
+var TodoApp = angular.module('todoApp', ['angularUtils.directives.dirPagination']);
