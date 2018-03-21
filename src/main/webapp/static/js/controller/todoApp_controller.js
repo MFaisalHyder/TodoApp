@@ -1,5 +1,3 @@
-'use strict';
-
 TodoApp.controller('TodoController', ['$scope', 'TodoService', '$window', function ($scope, TodoService, $window) {
     var todoObj = this;
     todoObj.task = {id: '', taskName: '', taskStatus: ''};

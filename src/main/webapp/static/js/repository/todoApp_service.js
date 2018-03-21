@@ -1,5 +1,3 @@
-'use strict';
-
 TodoApp.factory('TodoService', ['$http', '$q', function ($http, $q) {
 
     return {
